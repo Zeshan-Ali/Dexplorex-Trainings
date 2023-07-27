@@ -1,13 +1,3 @@
-'''
-dahi_milna = input("kya tumhen dahi mil gya ? enter y for yes and enter n for no:")
-
-if(dahi_milna=='y'):
-    print("ly ao and shabash")
-elif ()
-else:
-    print("ghar waps ajao")'''
-
-'''
 percentage  = float(input("enter your percentage: "))
 
 if(percentage > 80):
@@ -24,8 +14,8 @@ elif (percentage > 30 ):
     print("you grade is F")
 else:
     print("You are nalaiq")
-'''
-'''
+
+
 option = int(input("""please enter 1 for Balance emnquiry
 2 for jazz cash detail
 3 for history
@@ -44,9 +34,9 @@ elif (option==5):
     print("you are in customer care")
 else:
     print("please enter value from 1 to 5")
-'''
 
-'''
+
+
 status = input("are you pass the exam? enter y for yes and n for no:")
 if(status=='n'):
     print("try hard next class") 
@@ -57,7 +47,7 @@ else:
     else:
         print("You are not eligible")
         
-'''
+
 gender = "girl"
 if(gender != "boy"):
     print()
