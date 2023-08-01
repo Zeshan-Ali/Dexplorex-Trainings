@@ -40,3 +40,7 @@ if(lottery_win !="no"):
         print("you cant enjoy your life , kaam kro")
 else:
     print("Yuu should try one more time")
+
+
+
+    
