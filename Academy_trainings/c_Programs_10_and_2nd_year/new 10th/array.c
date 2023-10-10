@@ -2,16 +2,15 @@
 #include<stdio.h>
 void main()
 {
- int age[15];
- for(int j=0;j<=14;j++)
-    {
-    printf("please enter value for age:");
-    scanf("%d",&age[j]);
-    }
- for (int i=0;i<=14;i++)
-  {
-      printf("the age is:%d\n",age[i]);
-  }
+ // array is consecutive memory locations to store data of same
+ // type
+ int marks[4];
+ printf("please enter markks of students:");
+ scanf("%d %d %d %d",&marks[0],&marks[1],&marks[2],&marks[3]);
+
+ int total = marks[0]+marks[1]+marks[2]+marks[3];
+
+ printf("he total marks is:%d",total);
 
 
 }
